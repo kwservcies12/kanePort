@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+body {
+    
+    background-image: url('../images/metal1.jpg');
+}
+
+.navbarContainer {
+    display: flex; 
+    width: 100vw;
+    height: 6vh;
+    background-color: transparent;
+}
+
+.nav {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    text-align: center; 
+}
+
+.nav ul {
+    display: flex;
+    margin: 0%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 100vw;
+    height: 6vh;
+    background-color: transparent;
+    justify-content: space-between;
+    padding: 0;    
+}
+
+.nav li {
+    display: inline-block;
+    width: 10%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.nav li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #9f9d93;
+    font-size: 4vh;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.nav li a:hover {
+    color: #dd5771;
+}
+
+.header {
+    display: flex;
+    width: 20vw;
+    background-color: transparent;
+    height: 6vh;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2vh;
+    position: fixed;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    color: #9f9d93;
+    font-size: 4vh;   
+    
+}
+
+.text {
+    display: flex;
+    width: 20vw;
+    background-color: transparent;
+    height: 6vh;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2vh;
+    position: fixed;
+    left: 50%;
+    top: 82%;
+    transform: translate(-50%, -50%);
+}
+
+.text h2 {
+    color: #9f9d93;
+    font-size: 3vh;      
+}
+.namepicwelcome {
+    display: flex;
+    display: grid;
+    display: inline-grid;
+    width: 22vw;
+    height: 50vh;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center; 
+    position: fixed;
+    left: 12.5%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.img {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    background-color: transparent;
+    position: fixed;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.img img {
+    display: flex;
+    width: 97%;
+    height: 97%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+.contentContainer1 {
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+   
+    position: fixed;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+
+.quote {
+    display: flex;
+    width: 80vw;
+    color: #9f9d93;
+    position: fixed;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 2.1vh;
+}
